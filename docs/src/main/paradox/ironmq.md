@@ -40,7 +40,7 @@ Gradle
 IronMq can be used either in cloud or on-premise. Either way you need a authentication token and a project ID. These can
 be set in the Typesafe config:
 
-@@snip (../../../../ironmq/src/main/resources/reference.conf)
+@@snip ($alpakka$/ironmq/src/main/resources/reference.conf)
 
 ### Consumer
 
