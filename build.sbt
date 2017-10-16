@@ -66,7 +66,7 @@ lazy val elasticsearch = alpakkaProject("elasticsearch", Dependencies.Elasticsea
 )
 
 // The name file is taken by `sbt.file`!
-lazy val files = alpakkaProject("files", Dependencies.File,
+lazy val files = alpakkaProject("file", Dependencies.File,
   name := "akka-stream-alpakka-file"
 )
 
